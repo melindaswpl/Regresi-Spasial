@@ -1,5 +1,6 @@
-##DATA INDONESIA
 #Import Data
 options(max.print = 9999)
-rate_indonesia=read.csv2("C:/Users/A C E R/Documents/Rate Kasus Indonesia.csv", 
+rate_indonesia=read.csv2("C:/Users/A C E R/Documents/COVID19 Indonesia.csv", 
                          header = T )
+summary(rate_indonesia)
+view(rate_indonesia)
