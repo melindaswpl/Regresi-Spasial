@@ -1,0 +1,7 @@
+
+#Matriks ketetanggan dengan metode queen
+bobot=read.csv2("C:/Users/A C E R/Documents/Matriks Terstandarisasi Indonesia.csv",
+                header = F )
+bobot1=as.matrix(bobot)
+bobot2=mat2listw(bobot1)
+bobot2
